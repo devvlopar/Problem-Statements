@@ -1,0 +1,40 @@
+PROBLEM STATEMENT:
+
+Write a Python program that takes four integers as input representing the scores obtained by a student in four different subjects: English, History, Science, and Art. Calculate and display the weighted average of these scores based on the given weights:
+
+English: 30%
+History: 25%
+Science: 30%
+Art: 15%
+The weighted average is calculated using the formula:
+
+Weighted Average
+= (English×0.30+History×0.25+Science×0.30+Art×0.15) / Total Weight
+
+Sample Input 1:
+80
+70
+85
+60
+Sample Output 1:
+Weighted Average: 74.5
+
+Sample Input 2:
+90
+92
+88
+95
+Sample Output 2:
+Weighted Average: 91.15
+
+Sample Input 3:
+75
+80
+70
+68
+Sample Output 3:
+Weighted Average: 74.15
+
+Constraints:
+0 ≤ marks ≤ 100
+The sum of weights (English + History + Science + Art) is always 100%.

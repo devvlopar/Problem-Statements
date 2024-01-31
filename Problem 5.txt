@@ -1,0 +1,31 @@
+PROBLEM STATEMENT:
+
+Write a Python program to determine the eligibility of a candidate for a scholarship based on the following criteria:
+The total of the scores must be more than 250.
+Your program should take three integer inputs representing the scores in Mathematics, Physics, and Chemistry, respectively. Determine and display whether the candidate is eligible for the scholarship or not.
+If a candidate is eligible then print True else print False.
+
+Sample Input 1:
+67
+45
+78
+Sample Output 1:
+False
+
+Sample Input 2:
+89
+97
+77
+Sample Output 2:
+True
+
+Sample Input 3:
+85
+85
+80
+Sample Output 3:
+False
+
+Constraints:
+0 <= marks <= 100
+
