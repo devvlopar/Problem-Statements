@@ -1,0 +1,34 @@
+PROBLEM STATEMENT:
+
+Write a Python program to calculate the cost of admission to a zoo based on the age of the visitor. The admission rates are as follows:
+Children (ages 0-5): Free
+Kids (ages 6-12): $5
+Teenagers (ages 13-17): $8
+Adults (ages 18-59): $12
+Seniors (ages 60 and above): $6
+Your program should prompt the user to enter their age using the input() function, calculate the admission cost based on the given rates, and then print the total cost.
+
+
+Sample Input 1:
+25
+Sample Output 1:
+$12
+
+
+Sample Input 2:
+8
+Sample Output 2:
+$5
+
+
+Sample Input 1:
+78
+Sample Output 1:
+$6
+
+CONSTRAINTS:
+
+Utilize conditional statements (if, else, elif) to determine the admission cost.
+Handle cases where the user enters non-numeric input or invalid age values.
+Use appropriate variable names and follow naming conventions.
+NoneType, Reference, or Falsy Values should not affect the program's functionality.
