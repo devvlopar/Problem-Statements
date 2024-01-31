@@ -1,0 +1,29 @@
+PROBLEM STATEMENT:
+
+Write a python program which will ask for one integer from user input.
+Your program will determine if the given number is positive, negative
+or zero.
+
+Sample Input 1:
+34
+Sample Output 1:
+positive
+
+Sample Input 2:
+-34
+Sample Output 2:
+negative
+
+Sample Input 3:
+0
+Sample Output 3:
+zero
+
+Sample Input 4:
+-92
+Sample Output 4:
+negative
+
+
+CONSTRAINTS:
+-1000 <= number <= 1000

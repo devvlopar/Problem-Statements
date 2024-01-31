@@ -1,0 +1,32 @@
+PROBLEM STATEMENT:
+
+Write a Python program that asks the user for their age and determines their eligibility to participate in a coding competition. The eligibility criteria are as follows:
+Participants must be between 12 and 18 years old (inclusive) to qualify.
+Participants aged 19 or above are considered too old for the competition.
+Your program should prompt the user to enter their age using the input() function, validate the age based on the given criteria, and then print a message indicating whether the participant is eligible or not.
+
+Sample Input 1:
+15
+Sample Output 1:
+Eligible
+
+Sample Input 2:
+19
+Sample Output 2:
+Not Eligible
+
+Sample Input 3:
+89
+Sample Output 3:
+Not Eligible
+
+
+CONSTRAINTS:
+
+Use appropriate variable names and follow naming conventions.
+Utilize conditional statements (if, else, elif) to check the eligibility conditions.
+Handle cases where the user enters non-numeric input or invalid age values.
+NoneType, Reference, or Falsy Values should not affect the program's functionality.
+
+
+

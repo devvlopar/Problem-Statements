@@ -1,0 +1,39 @@
+PROBLEM STATEMENT:
+
+Write a python program which will work as a grading system.
+You have to take one integer from user input which is the marks
+for a student. Now the program should print grades based on given
+criteria.
+- if marks is in inclusive range of 91 and 100 then A grade.
+- if marks is in inclusive range of 81 and 90 then B grade.
+- if marks is in inclusive range of 71 and 80 then C grade.
+- if marks is in inclusive range of 61 and 70 then D grade.
+- if marks is in inclusive range of 0 and 60 then F grade.
+
+
+Sample Input 1:
+45
+Sample Output 1:
+F
+
+Sample Input 2:
+89
+Sample Output 2:
+B
+
+Sample Input 3:
+67
+Sample Output 3:
+D
+
+Sample Input 4:
+98
+Sample Output 4:
+A
+
+
+CONSTRAINTS:
+0 <= marks <= 100
+
+
+

@@ -1,0 +1,25 @@
+PROBLEM STATEMENT:
+
+Write a python program which will take one integer from user input.
+Then it will determine if the taken number is odd, even or zero.
+Based on the given number you have to print Odd, Even or Zero.
+
+Sample Input 1:
+23
+Sample Output 1:
+Odd
+
+Sample Input 2:
+68
+Sample Output 2:
+Even
+
+Sample Input 3:
+0
+Sample Output 3:
+Zero
+
+
+CONSTRAINTS:
+-10000 < number < 10000
+
