@@ -1,0 +1,24 @@
+PROBLEM STATEMENT:
+
+Write a python program which will ask for one string from user input.
+You have to print if True if letter Z is present in the taken string.
+if letter Z is not present in the string then you have to print False.
+
+HINT:
+You can use membership operator.
+
+Sample Input 1:
+'Erlich Bachman'
+Sample Output 1:
+False
+
+Sample Input 2:
+'Zestech'
+Sample Output 2:
+True
+
+Sample Input 3:
+''
+Sample Output 3:
+False
+

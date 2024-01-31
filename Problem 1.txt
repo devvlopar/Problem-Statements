@@ -1,0 +1,23 @@
+PROBLEM STATEMENT:
+
+You have to take 1 integer from user input. That will be the radius
+of a circle. You have to print out the area of circle based on
+the taken radius.
+
+HINT:
+formula for area of circle is πr².
+here in this formula, r is the radius.
+
+Sample Input 1:
+34
+Sample Output 1:
+3629.84
+
+Sample Input 2:
+2
+Sample Output 2:
+12.56
+
+NOTE: you can not use any builtIn libraries or modules
+for this problem.
+
