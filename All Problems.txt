@@ -1,0 +1,289 @@
+_________________Problem 1_______________
+You are tasked with creating a program that calculates the sum of all numbers from 1 to a given integer using a combination of for loops, while loops, and the range function.
+
+Write a Python program that takes an integer `num` as input and prints the sum of all numbers from 1 to `num`, inclusive.
+
+Sample Input/Output:
+
+Input:
+num = 5
+Output:
+15
+Explanation: The sum of numbers from 1 to 5 is 1 + 2 + 3 + 4 + 5 = 15.
+
+Input:
+num = 10
+Output:
+55
+Explanation: The sum of numbers from 1 to 10 is 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55.
+
+Input:
+num = 1
+Output:
+1
+Explanation: The sum of numbers from 1 to 1 is 1.
+
+
+Constraints:
+- 1 <= num <= 10^3
+
+
+_________________Problem 2_______________
+You have been assigned a task to create a program that calculates the factorial of a given number using a combination of for loops, while loops, and the range function.
+
+Write a Python program that takes an integer `num` as input and prints the factorial of `num`.
+
+Sample Input/Output:
+```
+Input:
+num = 5
+Output:
+120
+Explanation: The factorial of 5 is 5 * 4 * 3 * 2 * 1 = 120.
+
+Input:
+num = 3
+Output:
+6
+Explanation: The factorial of 3 is 3 * 2 * 1 = 6.
+
+Input:
+num = 0
+Output:
+1
+Explanation: The factorial of 0 is defined as 1.
+```
+
+Constraints:
+- 0 <= num <= 10^3
+
+
+
+_________________Problem 3_______________
+You are tasked with creating a program that generates a Fibonacci sequence up to a given number using a combination of for loops, while loops, and the range function.
+
+Write a Python Program that takes an integer `num` as input and generates the Fibonacci sequence up to the largest Fibonacci number less than or equal to `num`.
+
+Sample Input/Output:
+```
+Input:
+num = 10
+Output:
+1
+1
+2
+3
+5
+8
+Explanation: The Fibonacci sequence up to 10 is [1, 1, 2, 3, 5, 8].
+
+Input:
+num = 20
+Output:
+1
+1
+2
+3
+5
+8
+13
+Explanation: The Fibonacci sequence up to 20 is [1, 1, 2, 3, 5, 8, 13].
+
+Input:
+num = 1
+Output:
+1
+1
+Explanation: The Fibonacci sequence up to 1 is 1, 1.
+```
+
+Constraints:
+- 1 <= num <= 10^3
+
+
+
+
+_________________Problem 4_______________
+You are tasked with creating a program that iterates over a list of numbers and prints each number. However, if the number is negative, the program should skip it using the `continue` statement.
+
+Write a Python program that takes a 5 of integers as input in a list and prints each positive number in the list.
+
+Sample Input/Output:
+```
+Input:
+numbers = [1, -2, 3, -4, 5]
+Output:
+1
+3
+5
+
+Input:
+numbers = [-10, 0, 20, -30]
+Output:
+20
+
+Input:
+numbers = [-1, -2, -3, -8, -7]
+Output: (No output)
+```
+
+
+
+
+
+
+_________________Problem 5_______________
+You are tasked with creating a program that finds the longest word in a given sentence.
+
+Write a Python Program that takes a string `sentence` as input and prints the longest word in the sentence. If there are multiple longest words, return the first one encountered.
+
+Sample Input/Output:
+```
+Input:
+sentence = "I love programming"
+Output:
+"programming"
+
+Input:
+sentence = "Python is awesome and versatile"
+Output:
+"versatile"
+
+Input:
+sentence = "This is a test"
+Output:
+"This"
+```
+
+
+
+
+
+_________________Problem 6_______________
+You are assigned a task to create a program that counts the occurrences of a given character in a string.
+
+Write a Python program that takes a string `string` and a character `char` as input and prints the number of times the character appears in the string.
+
+Sample Input/Output:
+```
+Input:
+string = "hello world"
+char = "l"
+Output:
+3
+
+Input:
+string = "programming is fun"
+char = "m"
+Output:
+2
+
+Input:
+string = "hello"
+char = "z"
+Output:
+0
+```
+
+
+
+
+_________________Problem 7_______________
+You are tasked with creating a program that capitalizes the first letter of each word in a given sentence.
+
+Write a Python program that takes a string `sentence` as input and prints the sentence with the first letter of each word capitalized.
+
+Sample Input/Output:
+```
+Input:
+sentence = "hello world"
+Output:
+"Hello World"
+
+Input:
+sentence = "python is fun"
+Output:
+"Python Is Fun"
+
+Input:
+sentence = "this is a test"
+Output:
+"This Is A Test"
+```
+
+
+
+_________________Problem 8_______________
+You are assigned a task to create a program that checks if a given string is a palindrome.
+
+Write a Python Program that takes a string `string` as input and prints `True` if the string is a palindrome, and `False` otherwise. Ignore spaces and capitalization when checking for palindromes.
+
+Sample Input/Output:
+```
+Input:
+string = "racecar"
+Output:
+True
+
+Input:
+string = "hello"
+Output:
+False
+
+Input:
+string = "A man a plan a canal Panama"
+Output:
+True
+```
+
+
+
+_________________Problem 9_______________
+Problem Statement 6:
+You have to create a program that extracts the domain name from a given URL.
+
+Write a Python program that takes a string `url` representing a URL as input and prints the domain name (excluding the protocol and any path).
+
+Sample Input/Output:
+```
+Input:
+url = "https://www.example.com/path/to/page"
+Output:
+"example.com"
+
+Input:
+url = "http://subdomain.example.co.uk"
+Output:
+"example.co.uk"
+
+Input:
+url = "https://www.example.org"
+Output:
+"example.org"
+```
+
+
+
+_________________Problem 10_______________
+You are assigned a task to create a program that reverses a string using slicing.
+
+Write a Python Program that takes a string `string` as input and prints the string reversed.
+
+Sample Input/Output:
+```
+Input:
+string = "hello"
+Output:
+"olleh"
+
+Input:
+string = "python"
+Output:
+"nohtyp"
+
+Input:
+string = "racecar"
+Output:
+"racecar"
+```
+
